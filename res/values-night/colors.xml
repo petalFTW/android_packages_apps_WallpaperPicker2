@@ -43,13 +43,13 @@
     <color name="system_outline_variant">@android:color/system_outline_variant_dark</color>
     <color name="system_secondary_container">@android:color/system_secondary_container_dark</color>
 
-    <!-- UI elements with Dark/Light Theme Variances -->
-    <color name="option_item_background">@color/system_surface_bright</color>
-    <color name="clock_color_and_size_button_background">@color/system_surface_container_high</color>
-    <color name="connected_sections_background">@color/system_surface_container_high</color>
-    <color name="picker_section_icon_background">@color/system_surface_container_high</color>
-    <color name="picker_fragment_background">@color/system_surface_container_high</color>
-    <color name="floating_toolbar_background">@color/system_surface_container_high</color>
+    <!-- UI elements with Dark/Light Theme Variances, tuned to the petal Settings surface -->
+    <color name="option_item_background">@color/system_surface_container</color>
+    <color name="clock_color_and_size_button_background">@color/system_surface_container</color>
+    <color name="connected_sections_background">@color/system_surface_container</color>
+    <color name="picker_section_icon_background">@color/system_surface_container</color>
+    <color name="picker_fragment_background">@color/system_surface_container</color>
+    <color name="floating_toolbar_background">@color/system_surface_container</color>
 
     <!-- Icon preview color -->
     <color name="themed_icon_color">@android:color/system_accent1_200</color>

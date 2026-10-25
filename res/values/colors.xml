@@ -26,7 +26,8 @@
     <color name="text_color_dark">#2d2d2d</color>
     <color name="text_color_light">@color/material_white_text</color>
     <color name="secondary_color">#3a3a3a</color>
-    <color name="accent_color">@color/material_googblue500</color>
+    <!-- petal: match Settings instead of the stock Google blue -->
+    <color name="accent_color">#6844D6</color>
 
     <color name="status_bar_color">@color/material_black_100</color>
 
@@ -81,13 +82,13 @@
     <color name="system_outline_variant">@android:color/system_outline_variant_light</color>
     <color name="system_secondary_container">@android:color/system_secondary_container_light</color>
 
-    <!-- UI elements with Dark/Light Theme Variances -->
-    <color name="option_item_background">@color/system_surface_container_low</color>
-    <color name="clock_color_and_size_button_background">@color/system_surface_bright</color>
-    <color name="connected_sections_background">@color/system_surface_bright</color>
-    <color name="picker_section_icon_background">@color/system_surface_bright</color>
-    <color name="picker_fragment_background">@color/system_surface_bright</color>
-    <color name="floating_toolbar_background">@color/system_surface_bright</color>
+    <!-- UI elements with Dark/Light Theme Variances, tuned to the petal Settings surface -->
+    <color name="option_item_background">@color/system_surface_container</color>
+    <color name="clock_color_and_size_button_background">@color/system_surface_container</color>
+    <color name="connected_sections_background">@color/system_surface_container</color>
+    <color name="picker_section_icon_background">@color/system_surface_container</color>
+    <color name="picker_fragment_background">@color/system_surface_container</color>
+    <color name="floating_toolbar_background">@color/system_surface_container</color>
 
     <!-- Icon preview color -->
     <color name="themed_icon_color">@android:color/system_accent1_700</color>
